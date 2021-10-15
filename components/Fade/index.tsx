@@ -15,10 +15,10 @@ export function Fade({
   children,
 }: FadeProps) {
   const [animate, setAnimate] = useState(false);
+  const animation = show ? 'in' : 'out';
 
   const classes = clsx('fade', {
-    'fade--in': animate && show,
-    'fade--out': animate && !show,
+    [`fade--${animation}`]: animate,
   });
 
   useEffect(() => {
