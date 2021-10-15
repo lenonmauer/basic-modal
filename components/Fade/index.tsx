@@ -22,7 +22,7 @@ export function Fade({
   });
 
   useEffect(() => {
-    if (show) {
+    if (show && !animate) {
       setAnimate(true);
     }
   }, [show, animate]);
