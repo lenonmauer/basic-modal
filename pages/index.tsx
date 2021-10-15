@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <div>
-      <button onClick={toggle(true)}>Toggle Modal</button>
+      <button onClick={toggle(true)}>Open Modal</button>
 
       <Modal open={open} onClose={toggle(false)} />
     </div>
