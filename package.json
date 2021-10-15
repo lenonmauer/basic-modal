@@ -1,0 +1,30 @@
+{
+  "name": "modal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@styled-jsx/plugin-sass": "^4.0.1",
+    "babel-plugin-jsx-control-statements": "^4.1.1",
+    "clsx": "^1.1.1",
+    "eslint-plugin-jsx-control-statements": "^2.2.1",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.43.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.30",
+    "eslint": "8.0.1",
+    "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
+    "typescript": "4.4.4"
+  }
+}

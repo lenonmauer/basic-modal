@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:jsx-control-statements/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "jsx-control-statements"
+  ],
+  "rules": {
+    "react/jsx-no-undef": [
+      "error",
+      {
+        "allowGlobals": true
+      }
+    ]
+  }
+}
